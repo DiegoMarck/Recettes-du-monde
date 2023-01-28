@@ -779,25 +779,25 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 //   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
 //   'driver' => 'mysql',
 // );
-$databases['default']['default'] = array (
-  'database' => 'u585537963_recettesm',
-  'username' => 'u585537963_DiegoRecettesM',
-  'password' => 'ER&W6>7&G:5l',
-  'prefix' => '',
-  'host' => 'localhost',
-  'port' => '3306',
-  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
-  'driver' => 'mysql',
-);
 // $databases['default']['default'] = array (
-//   'database' => 'recettes_du_monde',
-//   'username' => 'root',
-//   'password' => '',
+//   'database' => 'u585537963_recettesm',
+//   'username' => 'u585537963_DiegoRecettesM',
+//   'password' => 'ER&W6>7&G:5l',
 //   'prefix' => '',
 //   'host' => 'localhost',
 //   'port' => '3306',
 //   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
 //   'driver' => 'mysql',
 // );
+$databases['default']['default'] = array (
+  'database' => 'recettes_du_monde',
+  'username' => 'root',
+  'password' => '',
+  'prefix' => '',
+  'host' => 'localhost',
+  'port' => '3306',
+  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+  'driver' => 'mysql',
+);
 $settings['config_sync_directory'] = 'sites/default/files/config_XNCnvW4aDgGQDIOG5AzIIsgNbKkwSW4U9_m1Fq-ay-wCeWcOJxTlks0jIQmr8agPqAVCsEPZ3A/sync';
 $config['system.logging']['error_level']='verbose';
